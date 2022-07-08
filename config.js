@@ -10,6 +10,7 @@ global.mods = JSON.parse(fs.readFileSync('./settings/moderator.json')) // Want s
 
 global.APIs = { // API Prefix
   // name: 'https://website'
+  a6: 'https://zenzapis.xyz', 
   nrtm: 'https://nurutomo.herokuapp.com',
   bg: 'http://bochil.ddns.net',
   xteam: 'https://api.xteam.xyz',
@@ -27,6 +28,7 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://zenzapis.xyz': '8486f7a010', 
   'https://api.xteam.xyz': 'apikeylu',
   'https://melcanz.com': 'apikeylu',
   'https://api.lolhuman.xyz': 'apikeylu',
